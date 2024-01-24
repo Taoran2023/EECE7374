@@ -1,0 +1,88 @@
+/eece7374_assignment2/li.jinb/src/abt.c
+
+SANITY: PASS
+./run_experiments -m 1000 -l 0 -c 0 -t 5 -w 0 -p ../Liu.taora/abt
+
+./run_experiments -m 1000 -l 0.8 -c 0 -t 50 -w 0 -p ../Liu.taora/abt
+
+./run_experiments -m 1000 -l 0 -c 0.8 -t 50 -w 0 -p ../Liu.taora/abt
+
+./run_experiments -m 20 -l 0 -c 0 -t 1000 -w 0 -p ../Liu.taora/abt
+
+./run_experiments -m 20 -l 1 -c 0 -t 1000 -w 0 -p ../Liu.taora/abt
+
+./run_experiments -m 20 -l 0 -c 1 -t 1000 -w 0 -p ../Liu.taora/abt
+
+
+BASIC: PASS
+./run_experiments -m 20 -l 0.8 -c 0 -t 1000 -w 0 -p ../Liu.taora/abt
+
+./run_experiments -m 20 -l 0 -c 0.8 -t 1000 -w 0 -p ../Liu.taora/abt
+
+
+ADVANCED: PASS
+
+./run_experiments -m 1000 -l 0.8 -c 0 -t 50 -w 0 -p ../Liu.taora/abt
+
+./run_experiments -m 1000 -l 0 -c 0.8 -t 50 -w 0 -p ../Liu.taora/abt
+
+
+GBN:
+
+SANITY: 
+./run_experiments -m 1000 -l 0 -c 0 -t 50 -w 5 -p ../Liu.taora/gbn
+
+./run_experiments -m 1000 -l 0.8 -c 0 -t 50 -w 10 -p ../Liu.taora/gbn
+
+./run_experiments -m 1000 -l 0.8 -c 0 -t 50 -w 10 -p ../Liu.taora/gbn
+
+./run_experiments -m 1000 -l 0 -c 0.8 -t 50 -w 10 -p ../Liu.taora/gbn
+
+./run_experiments -m 20 -l 0 -c 0 -t 50 -w 50 -p ../Liu.taora/gbn
+
+./run_experiments -m 20 -l 1 -c 0 -t 50 -w 50 -p ../Liu.taora/gbn
+
+./run_experiments -m 20 -l 0 -c 1 -t 50 -w 50 -p ../Liu.taora/gbn
+
+
+BASIC: 
+./run_experiments -m 20 -l 0.8 -c 0 -t 50 -w 50 -p ../Liu.taora/bn
+
+./run_experiments -m 20 -l 0 -c 0.8 -t 1000 -w 50 -p ../Liu.taora/gbn
+
+
+ADVANCED: 
+
+./run_experiments -m 1000 -l 0.8 -c 0 -t 50 -w 10 -p ../Liu.taora/gbn
+
+./run_experiments -m 1000 -l 0 -c 0.8 -t 50 -w 10 -p ../Liu.taora/gbn
+
+
+
+
+
+
+TEST:::::::::::::::::::::::::::
+
+./sanity_tests -p ../Liu.taora/abt -r ../grader/run_experiments
+
+./sanity_tests -p ../Liu.taora/gbn -r ../grader/run_experiments
+
+./sanity_tests -p ../Liu.taora/sr -r ../grader/run_experiments
+
+
+
+
+./basic_tests -p ../Liu.taora/abt -r ../grader/run_experiments
+
+./basic_tests -p ../Liu.taora/gbn -r ../grader/run_experiments
+
+./basic_tests -p ../Liu.taora/sr -r ../grader/run_experiments
+
+
+
+./advanced_tests -p ../Liu.taora/abt -r ../grader/run_experiments
+
+./advanced_tests -p ../Liu.taora/gbn -r ../grader/run_experiments
+
+./advanced_tests -p ../Liu.taora/sr -r ../grader/run_experiments

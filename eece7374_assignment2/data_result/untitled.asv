@@ -1,0 +1,33 @@
+clc
+clear
+close all
+%% 
+
+gbn08 = readtable("gbn_08.csv");
+gbn08 = readtable("sr_08.csv");
+
+gbn1 = table2array(gbn08(1:10,2:11));
+gbn2 = table2array(gbn08(12:21,2:11));
+gbn3 = table2array(gbn08(23:32,2:11));
+gbn4 = table2array(gbn08(34:43,2:11));
+gbn5 = table2array(gbn08(45:54,2:11));
+
+gbn = zeros(10,10,5);
+gbn(:,:,1)=gbn1;
+gbn(:,:,2)=gbn2;
+gbn(:,:,3)=gbn3;
+gbn(:,:,4)=gbn4;
+gbn(:,:,5)=gbn5;
+gbn(:,10,1)
+x=[10*ones(10,1);20*ones(10,1);30*ones(10,1);40*ones(10,1);50*ones(10,1)];
+z=[gbn(:,10,1)';gbn(:,10,2)';gbn(:,10,3)';gbn(:,10,4)';gbn(:,10,5)']';
+y=[1:10,1:10,1:10,1:10,1:10]';
+figure
+bar3([1:10]',z)
+set(gca,'XTick',1:5)
+set(gca,'XTickLabel',{'w10','w20','w100',''})
+set(gca,'YTick',1:4)
+set(gca,'YTickLabel',{'江南','塞北'})
+
+% scatter3(x,y,z)
+%读取x、y值

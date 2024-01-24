@@ -1,0 +1,470 @@
+output_A start 
+start send 0 
+          TOLAYER3: packet being lost
+outPut_A finish
+
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 20.000008, seq = 0, check = 0
+          TOLAYER3: packet being lost
+output_A start 
+A send 1 
+outPut_A finish
+
+B received 1 
+1 insert to buffer2: 1
+not in order 
+finish B input 
+ 
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 5.308289, seq = 1, check = 0
+          TOLAYER3: packet being lost
+start A_inpu 
+A rec, but wait for base: 1
+finis A_input 
+ 
+timer interrupt 
+     sis-stamp = 14.691711, seq = 0, check = 0
+     sis-stamp = 20.000000, seq = 1, check = 1
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 40.000000, seq = 1, check = 1
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 60.000000, seq = 1, check = 1
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 80.000000, seq = 1, check = 1
+          TOLAYER3: packet being lost
+output_A start 
+A send 2 
+          TOLAYER3: packet being lost
+outPut_A finish
+
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 100.000000, seq = 1, check = 1
+     sis-stamp = 12.540527, seq = 2, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 7.459473, seq = 0, check = 0
+     sis-stamp = 107.459473, seq = 1, check = 1
+     sis-stamp = 20.000000, seq = 2, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 120.000000, seq = 1, check = 1
+     sis-stamp = 12.540527, seq = 2, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 7.459473, seq = 0, check = 0
+     sis-stamp = 127.459473, seq = 1, check = 1
+     sis-stamp = 20.000000, seq = 2, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 140.000000, seq = 1, check = 1
+     sis-stamp = 12.540527, seq = 2, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 7.459473, seq = 0, check = 0
+     sis-stamp = 147.459473, seq = 1, check = 1
+     sis-stamp = 20.000000, seq = 2, check = 0
+B received 2 
+          TOLAYER3: packet being lost
+1 insert to buffer2: 2
+not in order 
+finish B input 
+ 
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 160.000000, seq = 1, check = 1
+     sis-stamp = 12.540527, seq = 2, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 7.459473, seq = 0, check = 0
+     sis-stamp = 167.459473, seq = 1, check = 1
+     sis-stamp = 20.000000, seq = 2, check = 0
+B received 2 
+          TOLAYER3: packet being lost
+not in order 
+finish B input 
+ 
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 180.000000, seq = 1, check = 1
+     sis-stamp = 12.540527, seq = 2, check = 0
+          TOLAYER3: packet being lost
+output_A start 
+A send 3 
+outPut_A finish
+
+timer interrupt 
+     sis-stamp = 7.459473, seq = 0, check = 0
+     sis-stamp = 187.459473, seq = 1, check = 1
+     sis-stamp = 20.000000, seq = 2, check = 0
+     sis-stamp = 2.815918, seq = 3, check = 0
+          TOLAYER3: packet being lost
+B received 3 
+          TOLAYER3: packet being lost
+1 insert to buffer2: 3
+not in order 
+finish B input 
+ 
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 200.000000, seq = 1, check = 1
+     sis-stamp = 12.540527, seq = 2, check = 0
+     sis-stamp = 15.356445, seq = 3, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 4.643555, seq = 0, check = 0
+     sis-stamp = 204.643555, seq = 1, check = 1
+     sis-stamp = 17.184082, seq = 2, check = 0
+     sis-stamp = 20.000000, seq = 3, check = 0
+timer interrupt 
+     sis-stamp = 7.459473, seq = 0, check = 0
+     sis-stamp = 207.459473, seq = 1, check = 1
+     sis-stamp = 20.000000, seq = 2, check = 0
+     sis-stamp = 2.815918, seq = 3, check = 0
+          TOLAYER3: packet being lost
+B received 3 
+          TOLAYER3: packet being lost
+not in order 
+finish B input 
+ 
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 220.000000, seq = 1, check = 1
+     sis-stamp = 12.540527, seq = 2, check = 0
+     sis-stamp = 15.356445, seq = 3, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 4.643555, seq = 0, check = 0
+     sis-stamp = 224.643555, seq = 1, check = 1
+     sis-stamp = 17.184082, seq = 2, check = 0
+     sis-stamp = 20.000000, seq = 3, check = 0
+B received 3 
+          TOLAYER3: packet being lost
+not in order 
+finish B input 
+ 
+timer interrupt 
+     sis-stamp = 7.459473, seq = 0, check = 0
+     sis-stamp = 227.459473, seq = 1, check = 1
+     sis-stamp = 20.000000, seq = 2, check = 0
+     sis-stamp = 2.815918, seq = 3, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 240.000000, seq = 1, check = 1
+     sis-stamp = 12.540527, seq = 2, check = 0
+     sis-stamp = 15.356445, seq = 3, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 4.643555, seq = 0, check = 0
+     sis-stamp = 244.643555, seq = 1, check = 1
+     sis-stamp = 17.184082, seq = 2, check = 0
+     sis-stamp = 20.000000, seq = 3, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 7.459473, seq = 0, check = 0
+     sis-stamp = 247.459473, seq = 1, check = 1
+     sis-stamp = 20.000000, seq = 2, check = 0
+     sis-stamp = 2.815918, seq = 3, check = 0
+B received 2 
+          TOLAYER3: packet being lost
+not in order 
+finish B input 
+ 
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 260.000000, seq = 1, check = 1
+     sis-stamp = 12.540527, seq = 2, check = 0
+     sis-stamp = 15.356445, seq = 3, check = 0
+output_A start 
+A send 4 
+          TOLAYER3: packet being lost
+outPut_A finish
+
+B received 0 
+          TOLAYER3: packet being lost
+2 insert to buffer2: 0
+send to layer5 0 
+pop
+send to layer5 1 
+pop
+send to layer5 2 
+pop
+send to layer5 3 
+pop
+buffer2 is empty 
+finish B input 
+ 
+timer interrupt 
+     sis-stamp = 4.643555, seq = 0, check = 0
+     sis-stamp = 264.643555, seq = 1, check = 1
+     sis-stamp = 17.184082, seq = 2, check = 0
+     sis-stamp = 20.000000, seq = 3, check = 0
+     sis-stamp = 3.342896, seq = 4, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 7.459473, seq = 0, check = 0
+     sis-stamp = 267.459473, seq = 1, check = 1
+     sis-stamp = 20.000000, seq = 2, check = 0
+     sis-stamp = 2.815918, seq = 3, check = 0
+     sis-stamp = 6.158813, seq = 4, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 280.000000, seq = 1, check = 1
+     sis-stamp = 12.540527, seq = 2, check = 0
+     sis-stamp = 15.356445, seq = 3, check = 0
+     sis-stamp = 18.699341, seq = 4, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 1.300659, seq = 0, check = 0
+     sis-stamp = 281.300659, seq = 1, check = 1
+     sis-stamp = 13.841187, seq = 2, check = 0
+     sis-stamp = 16.657104, seq = 3, check = 0
+     sis-stamp = 20.000000, seq = 4, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 4.643555, seq = 0, check = 0
+     sis-stamp = 284.643555, seq = 1, check = 1
+     sis-stamp = 17.184082, seq = 2, check = 0
+     sis-stamp = 20.000000, seq = 3, check = 0
+     sis-stamp = 3.342896, seq = 4, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 7.459473, seq = 0, check = 0
+     sis-stamp = 287.459473, seq = 1, check = 1
+     sis-stamp = 20.000000, seq = 2, check = 0
+     sis-stamp = 2.815918, seq = 3, check = 0
+     sis-stamp = 6.158813, seq = 4, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 300.000000, seq = 1, check = 1
+     sis-stamp = 12.540527, seq = 2, check = 0
+     sis-stamp = 15.356445, seq = 3, check = 0
+     sis-stamp = 18.699341, seq = 4, check = 0
+timer interrupt 
+     sis-stamp = 1.300659, seq = 0, check = 0
+     sis-stamp = 301.300659, seq = 1, check = 1
+     sis-stamp = 13.841187, seq = 2, check = 0
+     sis-stamp = 16.657104, seq = 3, check = 0
+     sis-stamp = 20.000000, seq = 4, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 4.643555, seq = 0, check = 0
+     sis-stamp = 304.643555, seq = 1, check = 1
+     sis-stamp = 17.184082, seq = 2, check = 0
+     sis-stamp = 20.000000, seq = 3, check = 0
+     sis-stamp = 3.342896, seq = 4, check = 0
+timer interrupt 
+     sis-stamp = 7.459473, seq = 0, check = 0
+     sis-stamp = 307.459473, seq = 1, check = 1
+     sis-stamp = 20.000000, seq = 2, check = 0
+     sis-stamp = 2.815918, seq = 3, check = 0
+     sis-stamp = 6.158813, seq = 4, check = 0
+          TOLAYER3: packet being lost
+B received 0 
+          TOLAYER3: packet being lost
+ duplicate packet from a
+buffer2 is empty 
+finish B input 
+ 
+B received 3 
+          TOLAYER3: packet being lost
+ duplicate packet from a
+buffer2 is empty 
+finish B input 
+ 
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 320.000000, seq = 1, check = 1
+     sis-stamp = 12.540527, seq = 2, check = 0
+     sis-stamp = 15.356445, seq = 3, check = 0
+     sis-stamp = 18.699341, seq = 4, check = 0
+timer interrupt 
+     sis-stamp = 1.300659, seq = 0, check = 0
+     sis-stamp = 321.300659, seq = 1, check = 1
+     sis-stamp = 13.841187, seq = 2, check = 0
+     sis-stamp = 16.657104, seq = 3, check = 0
+     sis-stamp = 20.000000, seq = 4, check = 0
+          TOLAYER3: packet being lost
+B received 0 
+          TOLAYER3: packet being lost
+ duplicate packet from a
+buffer2 is empty 
+finish B input 
+ 
+timer interrupt 
+     sis-stamp = 4.643555, seq = 0, check = 0
+     sis-stamp = 324.643555, seq = 1, check = 1
+     sis-stamp = 17.184082, seq = 2, check = 0
+     sis-stamp = 20.000000, seq = 3, check = 0
+     sis-stamp = 3.342896, seq = 4, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 7.459473, seq = 0, check = 0
+     sis-stamp = 327.459473, seq = 1, check = 1
+     sis-stamp = 20.000000, seq = 2, check = 0
+     sis-stamp = 2.815918, seq = 3, check = 0
+     sis-stamp = 6.158813, seq = 4, check = 0
+          TOLAYER3: packet being lost
+output_A start 
+A send 5 
+          TOLAYER3: packet being lost
+outPut_A finish
+
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 340.000000, seq = 1, check = 1
+     sis-stamp = 12.540527, seq = 2, check = 0
+     sis-stamp = 15.356445, seq = 3, check = 0
+     sis-stamp = 18.699341, seq = 4, check = 0
+     sis-stamp = 8.080353, seq = 5, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 1.300659, seq = 0, check = 0
+     sis-stamp = 341.300659, seq = 1, check = 1
+     sis-stamp = 13.841187, seq = 2, check = 0
+     sis-stamp = 16.657104, seq = 3, check = 0
+     sis-stamp = 20.000000, seq = 4, check = 0
+     sis-stamp = 9.381012, seq = 5, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 4.643555, seq = 0, check = 0
+     sis-stamp = 344.643555, seq = 1, check = 1
+     sis-stamp = 17.184082, seq = 2, check = 0
+     sis-stamp = 20.000000, seq = 3, check = 0
+     sis-stamp = 3.342896, seq = 4, check = 0
+     sis-stamp = 12.723907, seq = 5, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 7.459473, seq = 0, check = 0
+     sis-stamp = 347.459473, seq = 1, check = 1
+     sis-stamp = 20.000000, seq = 2, check = 0
+     sis-stamp = 2.815918, seq = 3, check = 0
+     sis-stamp = 6.158813, seq = 4, check = 0
+     sis-stamp = 15.539825, seq = 5, check = 0
+          TOLAYER3: packet being lost
+output_A start 
+A send 6 
+outPut_A finish
+
+output_A start 
+A send 7 
+          TOLAYER3: packet being lost
+outPut_A finish
+
+B received 6 
+          TOLAYER3: packet being lost
+1 insert to buffer2: 6
+not in order 
+finish B input 
+ 
+timer interrupt 
+     sis-stamp = 11.919647, seq = 0, check = 0
+     sis-stamp = 351.919647, seq = 1, check = 1
+     sis-stamp = 4.460175, seq = 2, check = 0
+     sis-stamp = 7.276093, seq = 3, check = 0
+     sis-stamp = 10.618988, seq = 4, check = 0
+     sis-stamp = 20.000000, seq = 5, check = 0
+     sis-stamp = 4.098236, seq = 6, check = 0
+     sis-stamp = 2.144958, seq = 7, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 360.000000, seq = 1, check = 1
+     sis-stamp = 12.540527, seq = 2, check = 0
+     sis-stamp = 15.356445, seq = 3, check = 0
+     sis-stamp = 18.699341, seq = 4, check = 0
+     sis-stamp = 8.080353, seq = 5, check = 0
+     sis-stamp = 12.178589, seq = 6, check = 0
+     sis-stamp = 10.225311, seq = 7, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 1.300659, seq = 0, check = 0
+     sis-stamp = 361.300659, seq = 1, check = 1
+     sis-stamp = 13.841187, seq = 2, check = 0
+     sis-stamp = 16.657104, seq = 3, check = 0
+     sis-stamp = 20.000000, seq = 4, check = 0
+     sis-stamp = 9.381012, seq = 5, check = 0
+     sis-stamp = 13.479248, seq = 6, check = 0
+     sis-stamp = 11.525970, seq = 7, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 4.643555, seq = 0, check = 0
+     sis-stamp = 364.643555, seq = 1, check = 1
+     sis-stamp = 17.184082, seq = 2, check = 0
+     sis-stamp = 20.000000, seq = 3, check = 0
+     sis-stamp = 3.342896, seq = 4, check = 0
+     sis-stamp = 12.723907, seq = 5, check = 0
+     sis-stamp = 16.822144, seq = 6, check = 0
+     sis-stamp = 14.868866, seq = 7, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 7.459473, seq = 0, check = 0
+     sis-stamp = 367.459473, seq = 1, check = 1
+     sis-stamp = 20.000000, seq = 2, check = 0
+     sis-stamp = 2.815918, seq = 3, check = 0
+     sis-stamp = 6.158813, seq = 4, check = 0
+     sis-stamp = 15.539825, seq = 5, check = 0
+     sis-stamp = 19.638062, seq = 6, check = 0
+     sis-stamp = 17.684784, seq = 7, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 7.821411, seq = 0, check = 0
+     sis-stamp = 367.821411, seq = 1, check = 1
+     sis-stamp = 0.361938, seq = 2, check = 0
+     sis-stamp = 3.177856, seq = 3, check = 0
+     sis-stamp = 6.520752, seq = 4, check = 0
+     sis-stamp = 15.901764, seq = 5, check = 0
+     sis-stamp = 20.000000, seq = 6, check = 0
+     sis-stamp = 18.046722, seq = 7, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 9.774719, seq = 0, check = 0
+     sis-stamp = 369.774719, seq = 1, check = 1
+     sis-stamp = 2.315247, seq = 2, check = 0
+     sis-stamp = 5.131165, seq = 3, check = 0
+     sis-stamp = 8.474060, seq = 4, check = 0
+     sis-stamp = 17.855072, seq = 5, check = 0
+     sis-stamp = 1.953308, seq = 6, check = 0
+     sis-stamp = 20.000031, seq = 7, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 11.919617, seq = 0, check = 0
+     sis-stamp = 371.919617, seq = 1, check = 1
+     sis-stamp = 4.460144, seq = 2, check = 0
+     sis-stamp = 7.276062, seq = 3, check = 0
+     sis-stamp = 10.618958, seq = 4, check = 0
+     sis-stamp = 19.999969, seq = 5, check = 0
+     sis-stamp = 4.098206, seq = 6, check = 0
+     sis-stamp = 2.144897, seq = 7, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 20.000000, seq = 0, check = 0
+     sis-stamp = 380.000000, seq = 1, check = 1
+     sis-stamp = 12.540527, seq = 2, check = 0
+     sis-stamp = 15.356445, seq = 3, check = 0
+     sis-stamp = 18.699341, seq = 4, check = 0
+     sis-stamp = 8.080383, seq = 5, check = 0
+     sis-stamp = 12.178589, seq = 6, check = 0
+     sis-stamp = 10.225281, seq = 7, check = 0
+          TOLAYER3: packet being lost
+timer interrupt 
+     sis-stamp = 1.300659, seq = 0, check = 0
+     sis-stamp = 381.300659, seq = 1, check = 1
+     sis-stamp = 13.841187, seq = 2, check = 0
+     sis-stamp = 16.657104, seq = 3, check = 0
+     sis-stam
